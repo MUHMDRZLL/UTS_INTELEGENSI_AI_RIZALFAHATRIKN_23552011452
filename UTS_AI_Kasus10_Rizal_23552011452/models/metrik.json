@@ -1,0 +1,115 @@
+{
+  "test": {
+    "model": "Logistic Regression",
+    "threshold": 0.23,
+    "accuracy": 0.7438,
+    "precision": 0.6043,
+    "recall": 0.5915,
+    "f1": 0.5979,
+    "roc_auc": 0.7683,
+    "baseline_mayoritas": 0.678,
+    "confusion_matrix": [
+      [
+        244,
+        55
+      ],
+      [
+        58,
+        84
+      ]
+    ],
+    "n_train": 1760,
+    "n_test": 441
+  },
+  "cv": {
+    "Logistic Regression": {
+      "accuracy": [
+        0.7886,
+        0.0147
+      ],
+      "precision": [
+        0.9211,
+        0.0486
+      ],
+      "recall": [
+        0.3797,
+        0.036
+      ],
+      "f1": [
+        0.5366,
+        0.0392
+      ],
+      "roc_auc": [
+        0.7675,
+        0.0152
+      ]
+    },
+    "Random Forest": {
+      "accuracy": [
+        0.7881,
+        0.0153
+      ],
+      "precision": [
+        0.9034,
+        0.0589
+      ],
+      "recall": [
+        0.3867,
+        0.0268
+      ],
+      "f1": [
+        0.5411,
+        0.0333
+      ],
+      "roc_auc": [
+        0.7672,
+        0.0153
+      ]
+    },
+    "Gradient Boosting": {
+      "accuracy": [
+        0.7898,
+        0.0136
+      ],
+      "precision": [
+        0.9277,
+        0.0359
+      ],
+      "recall": [
+        0.3797,
+        0.036
+      ],
+      "f1": [
+        0.5379,
+        0.0387
+      ],
+      "roc_auc": [
+        0.768,
+        0.0151
+      ]
+    }
+  },
+  "audit": {
+    "jumlah_baris": 2201,
+    "tipe_data": {
+      "class": "str",
+      "sex": "str",
+      "age": "str",
+      "survived": "str"
+    },
+    "missing_per_kolom": {
+      "class": 0,
+      "sex": 0,
+      "age": 0,
+      "survived": 0
+    },
+    "baris_duplikat": 2177,
+    "kombinasi_unik": 24,
+    "nilai_tidak_wajar": {
+      "class": [],
+      "sex": [],
+      "age": [],
+      "survived": []
+    }
+  }
+}
